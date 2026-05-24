@@ -8,7 +8,7 @@ A minimal, custom Vite template that allows you to write a TS, CSS, and HTML pro
 ## Usage
 
 ```bash
-npx degit cr4z/bmo my-project
+npx degit cr4z/bmo my-app
 cd my-project
 npm install
 npm run dev
