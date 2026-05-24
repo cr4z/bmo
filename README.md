@@ -14,14 +14,10 @@ npm install
 npm run dev
 ```
 
-## Build
+## Build to Obsidian
+
+Specify in your `.env` fields: `OUT_DIR` and `FILENAME`. This will auto-copy the built single file to your specified directory.
 
 ```bash
 npm run build
 ```
-
-Outputs a standalone `dist/index.html` with all assets inlined.
-
-### Obsidian
-
-Set `OUT_DIR` and `FILENAME` in `.env` to auto-copy and name the built single-file HTML into a specified directory, assumed within your Obsidian vault.
