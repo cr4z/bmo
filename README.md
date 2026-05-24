@@ -3,7 +3,7 @@
 #### (Bare Metal on Obsidian)
 
 
-A minimal, custom Vite template that allows you to write a TS, CSS, and HTML project that will bundle to a single HTML file application viewable on Obsidian (mobile and desktop) with the [HTML reader plugin](https://community.obsidian.md/plugins/obsidian-html-plugin).
+A minimal boilerplate for writing TS/CSS/HTML applications of any size, then bundling to a **single** HTML file viewable within Obsidian on mobile and desktop (using the [HTML reader plugin](https://community.obsidian.md/plugins/obsidian-html-plugin)).
 
 ## Usage
 
@@ -14,14 +14,11 @@ npm install
 npm run dev
 ```
 
-## Build
+## Build to Obsidian
+
+Specify in your `.env` fields: `OUT_DIR` and `FILENAME`. This will auto-copy the built single file to a specified directory.
 
 ```bash
 npm run build
 ```
-
-Outputs a standalone `dist/index.html` with all assets inlined.
-
-### Obsidian
-
-Set `OUT_DIR` and `FILENAME` in `.env` to auto-copy and name the built single-file HTML into a specified directory, assumed within your Obsidian vault.
+Outputs a standalone `dist/index.html`, then copies over to a specified location within your vault if `.env` is present with fields. Emits logs to a local `build.log`.
