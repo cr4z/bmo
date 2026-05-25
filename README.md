@@ -3,9 +3,9 @@
 ##### (Bare Metal on Obsidian)
 
 
-This template is designed to bundle a Svelte app into a **single HTML file** that can run in any browser environment, including Obsidian on desktop or mobile (when using the [HTML reader plugin](https://community.obsidian.md/plugins/obsidian-html-plugin)).
+This template is designed to provide a Svelte development environment that bundles your application into a **single HTML file** that can render in any capable browser environment, including Obsidian's desktop and mobile implementations (when using the [HTML reader plugin](https://community.obsidian.md/plugins/obsidian-html-plugin)).
 
-Write modular components, witness a single file with zero runtime dependencies. Welcome back, Y2K.
+Write modular components, witness a single file with zero runtime dependencies. Welcome back Y2K.
 
 ## Usage
 
